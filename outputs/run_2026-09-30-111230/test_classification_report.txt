@@ -1,0 +1,83 @@
+                                                  precision    recall  f1-score   support
+
+                                    card_arrival     0.3333    0.6750    0.4463        40
+                                    card_linking     0.7391    0.8500    0.7907        40
+                                   exchange_rate     0.5588    0.9500    0.7037        40
+                card_payment_wrong_exchange_rate     0.8571    0.7500    0.8000        40
+                       extra_charge_on_statement     0.8056    0.7250    0.7632        40
+                         pending_cash_withdrawal     0.7073    0.7250    0.7160        40
+                           fiat_currency_support     0.8571    0.6000    0.7059        40
+                          card_delivery_estimate     0.7500    0.4500    0.5625        40
+                                automatic_top_up     0.8889    0.8000    0.8421        40
+                                card_not_working     0.6364    0.3500    0.4516        40
+                                exchange_via_app     0.8696    0.5000    0.6349        40
+                             lost_or_stolen_card     0.5152    0.4250    0.4658        40
+                                       age_limit     0.6604    0.8750    0.7527        40
+                                     pin_blocked     0.7647    0.6500    0.7027        40
+                         contactless_not_working     1.0000    0.0750    0.1395        40
+                  top_up_by_bank_transfer_charge     0.8636    0.4750    0.6129        40
+                                  pending_top_up     0.7143    0.5000    0.5882        40
+                                 cancel_transfer     0.8485    0.7000    0.7671        40
+                                   top_up_limits     0.8235    0.7000    0.7568        40
+                   wrong_amount_of_cash_received     0.7907    0.8500    0.8193        40
+                        card_payment_fee_charged     0.5323    0.8250    0.6471        40
+              transfer_not_received_by_recipient     0.4426    0.6750    0.5347        40
+                  supported_cards_and_currencies     0.9474    0.4500    0.6102        40
+                            getting_virtual_card     0.6596    0.7750    0.7126        40
+                                 card_acceptance     0.4688    0.3750    0.4167        40
+                                 top_up_reverted     0.6875    0.5500    0.6111        40
+balance_not_updated_after_cheque_or_cash_deposit     0.6667    0.8000    0.7273        40
+                     card_payment_not_recognised     0.5217    0.6000    0.5581        40
+                           edit_personal_details     0.8684    0.8250    0.8462        40
+                             why_verify_identity     0.7619    0.4000    0.5246        40
+                       unable_to_verify_identity     0.4000    1.0000    0.5714        40
+                               get_physical_card     0.7907    0.8500    0.8193        40
+                              visa_or_mastercard     0.9677    0.7500    0.8451        40
+                              topping_up_by_card     0.5000    0.6000    0.5455        40
+                          disposable_card_limits     0.8125    0.6500    0.7222        40
+                                compromised_card     0.3750    0.6750    0.4821        40
+                                     atm_support     0.8108    0.7500    0.7792        40
+             direct_debit_payment_not_recognised     0.7419    0.5750    0.6479        40
+                              passcode_forgotten     0.9429    0.8250    0.8800        40
+                        declined_cash_withdrawal     0.2797    0.8250    0.4177        40
+                            pending_card_payment     0.5349    0.5750    0.5542        40
+                            lost_or_stolen_phone     0.8718    0.8500    0.8608        40
+                                  request_refund     0.6400    0.8000    0.7111        40
+                               declined_transfer     0.6176    0.5250    0.5676        40
+                           Refund_not_showing_up     0.9630    0.6500    0.7761        40
+                           declined_card_payment     0.4737    0.6750    0.5567        40
+                                pending_transfer     0.5455    0.4500    0.4932        40
+                               terminate_account     0.7907    0.8500    0.8193        40
+                                  card_swallowed     0.9000    0.2250    0.3600        40
+                       transaction_charged_twice     0.5439    0.7750    0.6392        40
+                          verify_source_of_funds     0.9737    0.9250    0.9487        40
+                                 transfer_timing     0.5854    0.6000    0.5926        40
+                          reverted_card_payment?     0.8571    0.4500    0.5902        40
+                                      change_pin     0.8947    0.8500    0.8718        40
+                         beneficiary_not_allowed     0.8947    0.4250    0.5763        40
+                            transfer_fee_charged     0.6809    0.8000    0.7356        40
+                                 receiving_money     0.7568    0.7000    0.7273        40
+                                 failed_transfer     0.4384    0.8000    0.5664        40
+                           transfer_into_account     0.7778    0.7000    0.7368        40
+                                   verify_top_up     0.7170    0.9500    0.8172        40
+                              getting_spare_card     0.9048    0.4750    0.6230        40
+                        top_up_by_cash_or_cheque     0.7879    0.6500    0.7123        40
+                             order_physical_card     0.6744    0.7250    0.6988        40
+                        virtual_card_not_working     0.0000    0.0000    0.0000        40
+         wrong_exchange_rate_for_cash_withdrawal     0.7188    0.5750    0.6389        40
+                     get_disposable_virtual_card     0.4459    0.8250    0.5789        40
+                                   top_up_failed     0.4118    0.7000    0.5185        40
+         balance_not_updated_after_bank_transfer     0.6667    0.2500    0.3636        40
+                  cash_withdrawal_not_recognised     0.8750    0.3500    0.5000        40
+                                 exchange_charge     0.5373    0.9000    0.6729        40
+                           top_up_by_card_charge     0.7561    0.7750    0.7654        40
+                                activate_my_card     0.9429    0.8250    0.8800        40
+                          cash_withdrawal_charge     0.8214    0.5750    0.6765        40
+                            card_about_to_expire     0.7436    0.7250    0.7342        40
+                         apple_pay_or_google_pay     0.9250    0.9250    0.9250        40
+                              verify_my_identity     0.9286    0.3250    0.4815        40
+                                 country_support     0.8095    0.8500    0.8293        40
+
+                                        accuracy                         0.6549      3080
+                                       macro avg     0.7087    0.6549    0.6496      3080
+                                    weighted avg     0.7087    0.6549    0.6496      3080

@@ -1,0 +1,13 @@
+{
+  "run_name": "run_2026-10-02-101248",
+  "best_epoch": 9,
+  "epochs_run": 15,
+  "selection_metric": "accuracy",
+  "best_val_score": 0.9250749250749251,
+  "train_minutes": 162.18,
+  "test": {
+    "loss": 0.3983935212160086,
+    "accuracy": 0.9256493506493506,
+    "macro_f1": 0.9259913514999576
+  }
+}
