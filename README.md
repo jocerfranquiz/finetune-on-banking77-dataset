@@ -1,8 +1,7 @@
 
-# Fine-tuning ettin-encoder-17m on banking77 (CPU)
+# Fine-tuning on banking77 (CPU)
 
-Fine-tunes the 17M-parameter [Ettin encoder](https://huggingface.co/jhu-clsp/ettin-encoder-17m)
-(a ModernBERT-architecture model) to classify customer banking queries into the
+Fine-tunes ModernBERT-architecture model to classify customer banking queries into the
 77 intents of the banking77 dataset. Everything runs on CPU with PyTorch; no
 NVIDIA/CUDA packages are installed.
 
